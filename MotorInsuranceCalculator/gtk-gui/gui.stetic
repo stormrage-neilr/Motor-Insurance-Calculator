@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/MotorInsuranceCalculator.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="616 785">
+    <action-group name="Default">
+      <action id="FileAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">File</property>
+        <property name="ShortLabel" translatable="yes">File</property>
+      </action>
+      <action id="ClearAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Clear</property>
+        <property name="ShortLabel" translatable="yes">Clear</property>
+      </action>
+      <action id="ExitAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Exit</property>
+        <property name="ShortLabel" translatable="yes">Exit</property>
+      </action>
+      <action id="atnClear">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Clear</property>
+        <property name="ShortLabel" translatable="yes">Clear</property>
+        <signal name="Activated" handler="ClearForm" />
+      </action>
+      <action id="atnExit">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Exit</property>
+        <property name="ShortLabel" translatable="yes">Exit</property>
+        <signal name="Activated" handler="atnExit_Activated" />
+      </action>
+    </action-group>
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Motor Insurance Calculator</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="BorderWidth">5</property>
+    <property name="DefaultHeight">600</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.VBox" id="vbox3">
+        <property name="MemberName" />
+        <property name="Spacing">6</property>
+        <child>
+          <widget class="Gtk.MenuBar" id="menubar2">
+            <property name="MemberName" />
+            <node name="__gtksharp_138_Stetic_Editor_ActionMenuBar" type="Menubar">
+              <node type="Menu" action="FileAction">
+                <node type="Menuitem" action="atnClear" />
+                <node type="Menuitem" action="atnExit" />
+              </node>
+            </node>
+          </widget>
+          <packing>
+            <property name="Position">0</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.HBox" id="hbox1">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <widget class="Gtk.Frame" id="driverFrame">
+                <property name="MemberName" />
+                <property name="WidthRequest">300</property>
+                <property name="ShadowType">In</property>
+                <property name="BorderWidth">1</property>
+                <child>
+                  <widget class="Gtk.Alignment" id="GtkAlignment">
+                    <property name="MemberName" />
+                    <property name="Xalign">0</property>
+                    <property name="Yalign">0</property>
+                    <property name="LeftPadding">12</property>
+                    <child>
+                      <widget class="Gtk.VBox" id="vbox9">
+                        <property name="MemberName" />
+                        <property name="Spacing">6</property>
+                        <child>
+                          <widget class="Gtk.Label" id="nameLabel2">
+                            <property name="MemberName" />
+                            <property name="Xalign">0</property>
+                            <property name="LabelProp" translatable="yes">Full Name</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">0</property>
+                            <property name="AutoSize">True</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gtk.Entry" id="etyName">
+                            <property name="MemberName" />
+                            <property name="CanFocus">True</property>
+                            <property name="IsEditable">True</property>
+                            <property name="InvisibleChar">●</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">1</property>
+                            <property name="AutoSize">True</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gtk.Label" id="occupationLabel2">
+                            <property name="MemberName" />
+                            <property name="Xalign">0</property>
+                            <property name="LabelProp" translatable="yes">Occupation</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">2</property>
+                            <property name="AutoSize">True</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gtk.ComboBox" id="cbOccupation">
+                            <property name="MemberName" />
+                            <property name="IsTextCombo">True</property>
+                            <property name="Items" translatable="yes">Select an occupation
+Chauffeur
+Accountant</property>
+                            <property name="Active">0</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">3</property>
+                            <property name="AutoSize">True</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gtk.Label" id="dateOfBirthLable2">
+                            <property name="MemberName" />
+                            <property name="Xalign">0</property>
+                            <property name="LabelProp" translatable="yes">Date of Birth</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">4</property>
+                            <property name="AutoSize">True</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gtk.Calendar" id="cldDateOfBirth">
+                            <property name="MemberName" />
+                            <property name="CanFocus">True</property>
+                            <property name="DisplayOptions">35</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">5</property>
+                            <property name="AutoSize">True</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gtk.Frame" id="frame9">
+                            <property name="MemberName" />
+                            <property name="ShadowType">In</property>
+                            <property name="BorderWidth">1</property>
+                            <child>
+                              <widget class="Gtk.Alignment" id="GtkAlignment3">
+                                <property name="MemberName" />
+                                <property name="Xalign">0</property>
+                                <property name="Yalign">0</property>
+                                <property name="LeftPadding">12</property>
+                                <child>
+                                  <widget class="Gtk.VBox" id="vbox10">
+                                    <property name="MemberName" />
+                                    <property name="Spacing">6</property>
+                                    <child>
+                                      <widget class="Gtk.Label" id="dateOfClaimLabel">
+                                        <property name="MemberName" />
+                                        <property name="Xalign">0</property>
+                                        <property name="LabelProp" translatable="yes">Date of Claim</property>
+                                      </widget>
+                                      <packing>
+                                        <property name="Position">0</property>
+                                        <property name="AutoSize">True</property>
+                                        <property name="Expand">False</property>
+                                        <property name="Fill">False</property>
+                                      </packing>
+                                    </child>
+                                    <child>
+                                      <widget class="Gtk.Calendar" id="cldClaim">
+                                        <property name="MemberName" />
+                                        <property name="CanFocus">True</property>
+                                        <property name="DisplayOptions">35</property>
+                                      </widget>
+                                      <packing>
+                                        <property name="Position">1</property>
+                                        <property name="AutoSize">True</property>
+                                        <property name="Expand">False</property>
+                                        <property name="Fill">False</property>
+                                      </packing>
+                                    </child>
+                                    <child>
+                                      <widget class="Gtk.Button" id="btnAddClaim">
+                                        <property name="MemberName" />
+                                        <property name="CanFocus">True</property>
+                                        <property name="Type">TextOnly</property>
+                                        <property name="Label" translatable="yes">Add Claim</property>
+                                        <property name="UseUnderline">True</property>
+                                        <signal name="Clicked" handler="btnAddClaim_Clicked" />
+                                      </widget>
+                                      <packing>
+                                        <property name="Position">2</property>
+                                        <property name="AutoSize">True</property>
+                                        <property name="Expand">False</property>
+                                        <property name="Fill">False</property>
+                                      </packing>
+                                    </child>
+                                    <child>
+                                      <widget class="Gtk.Label" id="lblClaimError">
+                                        <property name="MemberName" />
+                                        <property name="Visible">False</property>
+                                        <property name="LabelProp" translatable="yes">Claim date can not be in the future!</property>
+                                      </widget>
+                                      <packing>
+                                        <property name="Position">3</property>
+                                        <property name="AutoSize">True</property>
+                                        <property name="Expand">False</property>
+                                        <property name="Fill">False</property>
+                                      </packing>
+                                    </child>
+                                    <child>
+                                      <widget class="Gtk.Label" id="lblCurrentClaims1">
+                                        <property name="MemberName" />
+                                        <property name="Xalign">0</property>
+                                        <property name="LabelProp" translatable="yes">Current Claims Listed:</property>
+                                      </widget>
+                                      <packing>
+                                        <property name="Position">4</property>
+                                        <property name="AutoSize">True</property>
+                                        <property name="Expand">False</property>
+                                        <property name="Fill">False</property>
+                                      </packing>
+                                    </child>
+                                    <child>
+                                      <widget class="Gtk.Label" id="lblCurrentClaims">
+                                        <property name="MemberName" />
+                                        <property name="LabelProp" translatable="yes">No claims currently listed.</property>
+                                      </widget>
+                                      <packing>
+                                        <property name="Position">5</property>
+                                        <property name="AutoSize">True</property>
+                                        <property name="Expand">False</property>
+                                        <property name="Fill">False</property>
+                                      </packing>
+                                    </child>
+                                  </widget>
+                                </child>
+                              </widget>
+                            </child>
+                            <child>
+                              <widget class="Gtk.Label" id="claimsLabel">
+                                <property name="MemberName" />
+                                <property name="Ypad">5</property>
+                                <property name="LabelProp" translatable="yes">&lt;b&gt;Claim(s)&lt;/b&gt;</property>
+                                <property name="UseMarkup">True</property>
+                              </widget>
+                              <packing>
+                                <property name="type">label_item</property>
+                              </packing>
+                            </child>
+                          </widget>
+                          <packing>
+                            <property name="Position">6</property>
+                            <property name="AutoSize">True</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gtk.Button" id="btnAddDriver">
+                            <property name="MemberName" />
+                            <property name="CanFocus">True</property>
+                            <property name="Type">TextOnly</property>
+                            <property name="Label" translatable="yes">Add Driver</property>
+                            <property name="UseUnderline">True</property>
+                            <signal name="Clicked" handler="btnAddDriver_Clicked" />
+                          </widget>
+                          <packing>
+                            <property name="Position">7</property>
+                            <property name="AutoSize">True</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gtk.Label" id="lblDriverError">
+                            <property name="MemberName" />
+                            <property name="Visible">False</property>
+                            <property name="LabelProp" translatable="yes">The name field cannot be blank!</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">8</property>
+                            <property name="AutoSize">True</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                      </widget>
+                    </child>
+                  </widget>
+                </child>
+                <child>
+                  <widget class="Gtk.Label" id="driverLabel">
+                    <property name="MemberName" />
+                    <property name="Ypad">6</property>
+                    <property name="LabelProp" translatable="yes">&lt;b&gt;Driver(s)&lt;/b&gt;</property>
+                    <property name="UseMarkup">True</property>
+                  </widget>
+                  <packing>
+                    <property name="type">label_item</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="Position">0</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.VBox" id="vbox1">
+                <property name="MemberName" />
+                <property name="WidthRequest">300</property>
+                <property name="Spacing">6</property>
+                <child>
+                  <widget class="Gtk.Frame" id="startDateFrame">
+                    <property name="MemberName" />
+                    <property name="ShadowType">In</property>
+                    <property name="BorderWidth">1</property>
+                    <child>
+                      <widget class="Gtk.Alignment" id="GtkAlignment2">
+                        <property name="MemberName" />
+                        <property name="Xalign">0</property>
+                        <property name="Yalign">0</property>
+                        <property name="LeftPadding">12</property>
+                        <child>
+                          <widget class="Gtk.Calendar" id="cldStartDate">
+                            <property name="MemberName" />
+                            <property name="CanFocus">True</property>
+                            <property name="DisplayOptions">35</property>
+                            <signal name="DaySelected" handler="cldStartDate_DaySelected" />
+                          </widget>
+                        </child>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="Gtk.Label" id="startDateLabel">
+                        <property name="MemberName" />
+                        <property name="Ypad">6</property>
+                        <property name="LabelProp" translatable="yes">&lt;b&gt;Policy Start Date&lt;/b&gt;</property>
+                        <property name="UseMarkup">True</property>
+                      </widget>
+                      <packing>
+                        <property name="type">label_item</property>
+                      </packing>
+                    </child>
+                  </widget>
+                  <packing>
+                    <property name="Position">0</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.Frame" id="frame10">
+                    <property name="MemberName" />
+                    <property name="ShadowType">In</property>
+                    <property name="BorderWidth">1</property>
+                    <child>
+                      <widget class="Gtk.Alignment" id="GtkAlignment1">
+                        <property name="MemberName" />
+                        <property name="Xalign">0</property>
+                        <property name="Yalign">0</property>
+                        <property name="LeftPadding">12</property>
+                        <child>
+                          <widget class="Gtk.Label" id="lblPolicySummary">
+                            <property name="MemberName" />
+                            <property name="Xalign">0</property>
+                            <property name="LabelProp" translatable="yes">Please add at least one driver to generate details.</property>
+                          </widget>
+                        </child>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="Gtk.Label" id="summaryGroupLabel">
+                        <property name="MemberName" />
+                        <property name="Ypad">6</property>
+                        <property name="LabelProp" translatable="yes">&lt;b&gt;Policy Summary&lt;/b&gt;</property>
+                        <property name="UseMarkup">True</property>
+                      </widget>
+                      <packing>
+                        <property name="type">label_item</property>
+                      </packing>
+                    </child>
+                  </widget>
+                  <packing>
+                    <property name="Position">1</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.HBox" id="hbox11">
+                    <property name="MemberName" />
+                    <property name="Spacing">6</property>
+                    <child>
+                      <widget class="Gtk.Button" id="btnClear">
+                        <property name="MemberName" />
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextOnly</property>
+                        <property name="Label" translatable="yes">Clear</property>
+                        <property name="UseUnderline">True</property>
+                        <signal name="Clicked" handler="ClearForm" />
+                      </widget>
+                      <packing>
+                        <property name="Position">0</property>
+                        <property name="AutoSize">False</property>
+                        <property name="Fill">False</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <widget class="Gtk.Button" id="getQuoteButton1">
+                        <property name="MemberName" />
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextOnly</property>
+                        <property name="Label" translatable="yes">Get Quote</property>
+                        <property name="UseUnderline">True</property>
+                        <signal name="Clicked" handler="btnGetQuote_Clicked" />
+                      </widget>
+                      <packing>
+                        <property name="Position">1</property>
+                        <property name="AutoSize">False</property>
+                        <property name="Fill">False</property>
+                      </packing>
+                    </child>
+                  </widget>
+                  <packing>
+                    <property name="Position">2</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.Frame" id="frmQuoteResults">
+                    <property name="MemberName" />
+                    <property name="Visible">False</property>
+                    <property name="ShadowType">In</property>
+                    <property name="BorderWidth">1</property>
+                    <child>
+                      <widget class="Gtk.Alignment" id="GtkAlignment4">
+                        <property name="MemberName" />
+                        <property name="Xalign">0</property>
+                        <property name="Yalign">0</property>
+                        <property name="LeftPadding">12</property>
+                        <child>
+                          <widget class="Gtk.Label" id="lblQuoteResults">
+                            <property name="MemberName" />
+                            <property name="Xalign">0</property>
+                          </widget>
+                        </child>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="Gtk.Label" id="GtkLabel5">
+                        <property name="MemberName" />
+                        <property name="LabelProp" translatable="yes">&lt;b&gt;Quote Results&lt;/b&gt;</property>
+                        <property name="UseMarkup">True</property>
+                      </widget>
+                      <packing>
+                        <property name="type">label_item</property>
+                      </packing>
+                    </child>
+                  </widget>
+                  <packing>
+                    <property name="Position">3</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.Label" id="resultsLabel">
+                    <property name="MemberName" />
+                  </widget>
+                  <packing>
+                    <property name="Position">4</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

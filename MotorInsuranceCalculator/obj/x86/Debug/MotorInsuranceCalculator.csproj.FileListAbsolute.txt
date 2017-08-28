@@ -1,0 +1,6 @@
+/Users/neilrafferty/Projects/MotorInsuranceCalculator/MotorInsuranceCalculator/bin/Debug/MotorInsuranceCalculator.exe
+/Users/neilrafferty/Projects/MotorInsuranceCalculator/MotorInsuranceCalculator/bin/Debug/MotorInsuranceCalculator.pdb
+/Users/neilrafferty/Projects/MotorInsuranceCalculator/MotorInsuranceCalculator/obj/x86/Debug/MotorInsuranceCalculator.csprojResolveAssemblyReference.cache
+/Users/neilrafferty/Projects/MotorInsuranceCalculator/MotorInsuranceCalculator/obj/x86/Debug/MotorInsuranceCalculator.csproj.CoreCompileInputs.cache
+/Users/neilrafferty/Projects/MotorInsuranceCalculator/MotorInsuranceCalculator/obj/x86/Debug/MotorInsuranceCalculator.exe
+/Users/neilrafferty/Projects/MotorInsuranceCalculator/MotorInsuranceCalculator/obj/x86/Debug/MotorInsuranceCalculator.pdb

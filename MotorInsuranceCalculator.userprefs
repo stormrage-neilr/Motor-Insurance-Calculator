@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{B82D9DA5-81F7-4006-9DE2-C6F072763F57}|Default">
+  <MonoDevelop.Ide.ItemProperties.MotorInsuranceCalculator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MotorInsuranceCalculator/MainWindow.cs">
+    <Files>
+      <File FileName="MotorInsuranceCalculator/Program.cs" Line="16" Column="2" />
+      <File FileName="MotorInsuranceCalculatorTest/Test.cs" Line="118" Column="5" />
+      <File FileName="MotorInsuranceCalculator/QuoteCalculator.cs" Line="173" Column="80" />
+      <File FileName="MotorInsuranceCalculator/MainWindow.cs" Line="26" Column="73" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MotorInsuranceCalculator" expanded="True">
+            <Node name="MotorInsuranceCalculatorTest" expanded="True">
+              <Node name="MotorInsuranceCalculatorTest" expanded="True">
+                <Node name="TestQuoteCalculator" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MotorInsuranceCalculatorTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

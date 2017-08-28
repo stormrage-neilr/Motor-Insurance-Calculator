@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorInsuranceCalculator", "MotorInsuranceCalculator\MotorInsuranceCalculator.csproj", "{B82D9DA5-81F7-4006-9DE2-C6F072763F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorInsuranceCalculatorTest", "MotorInsuranceCalculatorTest\MotorInsuranceCalculatorTest.csproj", "{3350EF1D-5AE4-46C2-A47F-83C11A34BB28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B82D9DA5-81F7-4006-9DE2-C6F072763F57}.Debug|x86.ActiveCfg = Debug|x86
+		{B82D9DA5-81F7-4006-9DE2-C6F072763F57}.Debug|x86.Build.0 = Debug|x86
+		{B82D9DA5-81F7-4006-9DE2-C6F072763F57}.Release|x86.ActiveCfg = Release|x86
+		{B82D9DA5-81F7-4006-9DE2-C6F072763F57}.Release|x86.Build.0 = Release|x86
+		{3350EF1D-5AE4-46C2-A47F-83C11A34BB28}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3350EF1D-5AE4-46C2-A47F-83C11A34BB28}.Debug|x86.Build.0 = Debug|Any CPU
+		{3350EF1D-5AE4-46C2-A47F-83C11A34BB28}.Release|x86.ActiveCfg = Release|Any CPU
+		{3350EF1D-5AE4-46C2-A47F-83C11A34BB28}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
