@@ -196,6 +196,7 @@ public partial class MainWindow
 		this.cbOccupation.AppendText(global::Mono.Unix.Catalog.GetString("Select an occupation"));
 		this.cbOccupation.AppendText(global::Mono.Unix.Catalog.GetString("Chauffeur"));
 		this.cbOccupation.AppendText(global::Mono.Unix.Catalog.GetString("Accountant"));
+		this.cbOccupation.AppendText(global::Mono.Unix.Catalog.GetString("Other"));
 		this.cbOccupation.Name = "cbOccupation";
 		this.cbOccupation.Active = 0;
 		this.vbox9.Add(this.cbOccupation);

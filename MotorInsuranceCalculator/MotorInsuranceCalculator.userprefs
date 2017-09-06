@@ -1,6 +1,10 @@
 ﻿<Properties StartupConfiguration="{B82D9DA5-81F7-4006-9DE2-C6F072763F57}|Default">
   <MonoDevelop.Ide.ItemProperties.MotorInsuranceCalculator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="QuoteCalculator.cs">
+    <Files>
+      <File FileName="QuoteCalculator.cs" Line="51" Column="99" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

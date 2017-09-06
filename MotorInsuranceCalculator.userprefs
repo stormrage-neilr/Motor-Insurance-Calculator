@@ -7,19 +7,6 @@
       <File FileName="MotorInsuranceCalculator/QuoteCalculator.cs" Line="173" Column="80" />
       <File FileName="MotorInsuranceCalculator/MainWindow.cs" Line="26" Column="73" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="MotorInsuranceCalculator" expanded="True">
-            <Node name="MotorInsuranceCalculatorTest" expanded="True">
-              <Node name="MotorInsuranceCalculatorTest" expanded="True">
-                <Node name="TestQuoteCalculator" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

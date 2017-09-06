@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{3350EF1D-5AE4-46C2-A47F-83C11A34BB28}|Unit Tests">
   <MonoDevelop.Ide.Workbench ActiveDocument="Test.cs">
     <Files>
-      <File FileName="Test.cs" Line="118" Column="5" />
+      <File FileName="Test.cs" Line="15" Column="23" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
